@@ -11,7 +11,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       toggle-content-block
  *
- * @package ToggleContentBlock
+ * @package ToggleContent
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

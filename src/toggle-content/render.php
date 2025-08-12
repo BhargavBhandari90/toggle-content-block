@@ -32,7 +32,7 @@ $context = array(
 			<button class="toggle-switch" type="button" data-wp-bind--aria-label="Toggle" data-wp-on--click="actions.toggleContent"></button>
 			<span class="toggle-label" data-wp-text="context.labelRight"></span>
 		</div>
-		<div class="block-editor-inner-blocks">
+		<div class="block-editor-inner-blocks 333">
 			<?php echo wp_kses_post( $content ); ?>
 		</div>
 	</div>

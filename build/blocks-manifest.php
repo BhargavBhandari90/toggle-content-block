@@ -69,7 +69,25 @@ return array(
 		),
 		'supports' => array(
 			'html' => false,
-			'interactivity' => true
+			'interactivity' => true,
+			'shadow' => true,
+			'color' => array(
+				'background' => true
+			),
+			'spacing' => array(
+				'margin' => true,
+				'padding' => true
+			),
+			'__experimentalBorder' => array(
+				'radius' => true,
+				'color' => true,
+				'width' => true,
+				'style' => true,
+				'__experimentalDefaultControls' => array(
+					'color' => true,
+					'radius' => true
+				)
+			)
 		),
 		'allowedBlocks' => array(
 			'buntywp/right-toggle-content',

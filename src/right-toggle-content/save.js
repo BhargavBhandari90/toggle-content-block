@@ -1,13 +1,14 @@
-import { useBlockProps, InnerBlocks } from '@wordpress/block-editor';
+import { useInnerBlocksProps, useBlockProps } from '@wordpress/block-editor';
 
 export default function save() {
 	const blockProps = useBlockProps.save( {
 		className: 'toggle-content',
 	} );
+	const innerBlocksProps = useInnerBlocksProps.save();
 
 	return (
 		<div { ...blockProps }>
-			<InnerBlocks.Content />
+			<div { ...innerBlocksProps } />
 		</div>
 	);
 }
