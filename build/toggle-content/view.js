@@ -1,1 +1,1 @@
-import{getContext as t,store as e}from"@wordpress/interactivity";const{state:i}=e("buntywp/toggle-content",{state:{},actions:{toggleContent:()=>{const e=t();e.activeSide="left"===e.activeSide?"right":"left"}},callbacks:{}});
+import{getContext as t,store as e}from"@wordpress/interactivity";e("buntywp/toggle-content",{actions:{toggleContent:()=>{const e=t();e.activeSide="left"===e.activeSide?"right":"left"}}});

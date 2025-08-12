@@ -1,7 +1,6 @@
-import { store, getContext, getElement } from '@wordpress/interactivity';
+import { store, getContext } from '@wordpress/interactivity';
 
-const { state } = store( 'buntywp/toggle-content', {
-	state: {},
+store( 'buntywp/toggle-content', {
 	actions: {
 		toggleContent: () => {
 			const context = getContext();
@@ -9,5 +8,4 @@ const { state } = store( 'buntywp/toggle-content', {
 				context.activeSide === 'left' ? 'right' : 'left';
 		},
 	},
-	callbacks: {},
 } );
