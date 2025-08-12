@@ -1,0 +1,21 @@
+.wp-block-buntywp-toggle-content {
+	border: 1px dotted #f00;
+
+	.block-list-appender {
+		display: none;
+	}
+
+	.wp-block-buntywp-left-toggle-content {
+
+		.block-list-appender {
+			display: block;
+		}
+	}
+
+	.wp-block-buntywp-right-toggle-content {
+
+		.block-list-appender {
+			display: block;
+		}
+	}
+}

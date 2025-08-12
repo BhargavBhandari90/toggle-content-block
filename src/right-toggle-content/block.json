@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "buntywp/right-toggle-content",
+	"version": "1.0.0",
+	"title": "Right Content",
+	"category": "widgets",
+	"icon": "arrow-right-alt2",
+	"description": "A block to add content to the right of the toggle switch.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"parent": [ "buntywp/toggle-content" ],
+	"textdomain": "right-toggle-content",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
