@@ -1,4 +1,8 @@
 # Toggle Content Block #
+
+[![Lint JS](https://github.com/BhargavBhandari90/toggle-content-block/actions/workflows/lint-js.yml/badge.svg)](https://github.com/BhargavBhandari90/toggle-content-block/actions/workflows/lint-js.yml)
+[![WPCS](https://github.com/BhargavBhandari90/toggle-content-block/actions/workflows/wpcs.yml/badge.svg)](https://github.com/BhargavBhandari90/toggle-content-block/actions/workflows/wpcs.yml)
+
 **Contributors:** [bhargavbhandari90](https://profiles.wordpress.org/bhargavbhandari90/)  
 **Donate link:** https://www.paypal.me/BnB90/20  
 **Tags:** block, toggle, switch, tabs, content toggle  
