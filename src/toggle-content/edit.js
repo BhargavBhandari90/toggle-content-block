@@ -24,41 +24,45 @@ export default function Edit( { attributes, setAttributes } ) {
 	];
 
 	return (
-		<div { ...blockProps }>
-			<InspectorControls>
-				<PanelBody title={ __( 'Toggle Settings', 'toggle-content' ) }>
-					<TextControl
-						label={ __( 'Left Label', 'toggle-content' ) }
-						value={ labelLeft }
-						onChange={ ( val ) =>
-							setAttributes( { labelLeft: val } )
-						}
-						__next40pxDefaultSize
-						__nextHasNoMarginBottom
-					/>
-					<TextControl
-						label={ __( 'Right Label', 'toggle-content' ) }
-						value={ labelRight }
-						onChange={ ( val ) =>
-							setAttributes( { labelRight: val } )
-						}
-						__next40pxDefaultSize
-						__nextHasNoMarginBottom
-					/>
-				</PanelBody>
-			</InspectorControls>
-			<div className={ activeSide }>
-				<div className="toggle-buttons">
-					{ labelLeft || 'Left' }
-					<Button
-						className="toggle-switch"
-						onClick={ toggle }
-						aria-label="Toggle"
-					></Button>
-					{ labelRight || 'Right' }
-				</div>
+		<div className="buntywp-toggle-content-wrapper">
+			<div { ...blockProps }>
+				<InspectorControls>
+					<PanelBody
+						title={ __( 'Toggle Settings', 'toggle-content' ) }
+					>
+						<TextControl
+							label={ __( 'Left Label', 'toggle-content' ) }
+							value={ labelLeft }
+							onChange={ ( val ) =>
+								setAttributes( { labelLeft: val } )
+							}
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
+						/>
+						<TextControl
+							label={ __( 'Right Label', 'toggle-content' ) }
+							value={ labelRight }
+							onChange={ ( val ) =>
+								setAttributes( { labelRight: val } )
+							}
+							__next40pxDefaultSize
+							__nextHasNoMarginBottom
+						/>
+					</PanelBody>
+				</InspectorControls>
+				<div className={ activeSide }>
+					<div className="toggle-buttons">
+						{ labelLeft || 'Left' }
+						<Button
+							className="toggle-switch"
+							onClick={ toggle }
+							aria-label="Toggle"
+						></Button>
+						{ labelRight || 'Right' }
+					</div>
 
-				<InnerBlocks template={ MY_TEMPLATE } />
+					<InnerBlocks template={ MY_TEMPLATE } />
+				</div>
 			</div>
 		</div>
 	);

@@ -9,8 +9,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-$label_left  = ! empty( $attributes['labelLeft'] ) ? esc_html( $attributes['labelLeft'] ) : 'Left';
-$label_right = ! empty( $attributes['labelRight'] ) ? esc_html( $attributes['labelRight'] ) : 'Right';
+$label_left  = ! empty( $attributes['labelLeft'] ) ? $attributes['labelLeft'] : esc_html__( 'Left', 'toggle-content-block' );
+$label_right = ! empty( $attributes['labelRight'] ) ? $attributes['labelRight'] : esc_html__( 'Right', 'toggle-content-block' );
 
 $context = array(
 	'post_id'    => get_the_ID(),

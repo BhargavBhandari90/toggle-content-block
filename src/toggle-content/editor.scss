@@ -1,21 +1,25 @@
-.wp-block-buntywp-toggle-content {
+.buntywp-toggle-content-wrapper {
 	border: 1px dotted #f00;
 
-	.block-list-appender {
-		display: none;
-	}
-
-	.wp-block-buntywp-left-toggle-content {
+	.wp-block-buntywp-toggle-content {
 
 		.block-list-appender {
-			display: block;
+			display: none;
+		}
+
+		.wp-block-buntywp-left-toggle-content {
+
+			.block-list-appender {
+				display: block;
+			}
+		}
+
+		.wp-block-buntywp-right-toggle-content {
+
+			.block-list-appender {
+				display: block;
+			}
 		}
 	}
 
-	.wp-block-buntywp-right-toggle-content {
-
-		.block-list-appender {
-			display: block;
-		}
-	}
 }
