@@ -33,8 +33,10 @@ Perfect for before/after comparisons, feature toggles, multi-step content, month
 
 1. Search Toggle Content block
 2. Add Toggle Content to your post/page
-3. Fill in Left and Right sections with blocks
-4. Switch between sections on frontend
+3. Add content to Left Toggle
+4. Add content to Right Toggle
+5. Left content on frontend
+6. Right content on frontend
 
 == GitHub Repo ==
 [https://github.com/BhargavBhandari90/toggle-content-block](https://github.com/BhargavBhandari90/toggle-content-block)
