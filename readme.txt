@@ -1,5 +1,5 @@
 === Toggle Content Block ===
-Contributors:      bunty, biliplugins
+Contributors:      bhargavbhandari90, biliplugins
 Donate link:       https://www.paypal.me/BnB90/20
 Tags:              block, toggle, switch, tabs, content toggle
 Requires at least: 6.7
